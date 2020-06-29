@@ -1,2 +1,13 @@
+# Ignore vagrant files
+.vagrant
+
+# Ignore logfiles
+/log/*.log
 *.log
-./.vagrant/*
+
+# Ignore tempfiles
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+.DS_Store
